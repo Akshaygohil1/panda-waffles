@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Panda Waffle House | Artisanal Delights</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Outfit', sans-serif; background-color: #FAF7F2; color: #4A3F35; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; }
+        .bg-artisan { background-color: #F4EFE9; }
+        .text-artisan { color: #5D4A3D; }
+        .btn-gold { background: linear-gradient(135deg, #D4AF37 0%, #C5A020 100%); }
+    </style>
+</head>
+<body class="pb-24">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full z-50 bg-[#FAF7F2]/90 backdrop-blur-md px-6 py-4 flex justify-between items-center border-b border-[#E6E1DC]">
+        <span class="font-serif text-xl font-bold italic">Panda Waffle House</span>
+        <button class="bg-[#4A3F35] text-white px-4 py-2 rounded-full text-sm">Menu</button>
+    </nav>
+
+    <!-- Hero -->
+    <header class="pt-32 pb-16 px-6 text-center">
+        <div class="mb-8 inline-block p-4 bg-[#E6E1DC] rounded-full">
+            <img src="https://cdn-icons-png.flaticon.com/512/3043/3043516.png" alt="Panda" class="w-24 h-24">
+        </div>
+        <h1 class="text-5xl md:text-7xl mb-4">Artisanal Waffles</h1>
+        <p class="text-lg opacity-80 max-w-sm mx-auto mb-8">Hand-crafted with heritage grains and filled with joy.</p>
+        <a href="#menu" class="px-8 py-3 btn-gold text-white rounded-full font-semibold">Discover Our Flavors</a>
+    </header>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-12 px-6">
+        <h2 class="text-3xl text-center mb-12 italic">Signature Collection</h2>
+        <div class="grid gap-6">
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-[#E6E1DC] flex items-center justify-between">
+                <div>
+                    <h3 class="text-xl font-bold">Honey Classic</h3>
+                    <p class="text-sm opacity-60">Pure golden nectar & crisp edges</p>
+                    <span class="block mt-2 font-bold text-lg">₹150</span>
+                </div>
+                <div class="text-4xl">🧇</div>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-[#E6E1DC] flex items-center justify-between">
+                <div>
+                    <h3 class="text-xl font-bold">Strawberry Bliss</h3>
+                    <p class="text-sm opacity-60">Hand-picked berries & velvet cream</p>
+                    <span class="block mt-2 font-bold text-lg">₹180</span>
+                </div>
+                <div class="text-4xl">🍓</div>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-[#E6E1DC] flex items-center justify-between">
+                <div>
+                    <h3 class="text-xl font-bold">Cocoa Overload</h3>
+                    <p class="text-sm opacity-60">Belgian dark chocolate ganache</p>
+                    <span class="block mt-2 font-bold text-lg">₹220</span>
+                </div>
+                <div class="text-4xl">🍫</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky Mobile Order -->
+    <div class="fixed bottom-0 w-full p-4 bg-white border-t border-[#E6E1DC] z-50">
+        <a href="https://wa.me/919876543210" class="block w-full text-center py-4 bg-[#5D4A3D] text-white rounded-xl font-bold">Order on WhatsApp</a>
+    </div>
+
+</body>
+</html>
